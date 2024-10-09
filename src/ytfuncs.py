@@ -67,7 +67,7 @@ def move_to_ytmusic(ytmusic, playlist_info, dest_id):
    not_found = []
    try:
       for i in playlist_info:
-         i = i.replace("&", " ")
+         i = i.replace("&@#72", " ")
          search = ytmusic.search(i, "songs")
          songid = [search[0]['videoId']]
          sleep(0.5)

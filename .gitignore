@@ -3,3 +3,4 @@ config/__pycache__
 .cache
 .creds/i_auth.txt
 .creds/creds_auth.txt
+.creds/oauth.json
